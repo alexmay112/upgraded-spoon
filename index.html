@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Test 3</title>
+  <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <main class="main">
+    <header class="header main__header">
+      <button class="logo" title="Начать сначала">
+        <img class="logo__img" src="img/logo.svg" alt="logo">
+        <span class="logo__text"> Animalizator </span>
+      </button>
+      <button class="btn faq__btn"> FAQ </button>
+    </header>
+    <div class="content">
+      <div class="choice">
+        <h2 class="choice__title title">Выберите питомца для&nbsp;продолжения</h2>
+        <div class="choice__list">
+          <div class="choice__item" data-choice="bear">
+            <img class="choice__img" src="img/bear-ava.svg" alt="img">
+            <span class="choice__name">Мишка</span>
+            <div class="choice__bg"></div>
+            <div class="choice__decor"></div>
+          </div>
+          <div class="choice__item" data-choice="cat">
+            <img class="choice__img" src="img/cat-ava.svg" alt="img">
+            <span class="choice__name">Котенок</span>
+            <div class="choice__bg"></div>
+            <div class="choice__decor"></div>
+          </div>
+          <div class="choice__item" data-choice="dog">
+            <img class="choice__img" src="img/dog-ava.svg" alt="img">
+            <span class="choice__name">Собачка</span>
+            <div class="choice__bg"></div>
+            <div class="choice__decor"></div>
+          </div>
+          <div class="choice__item" data-choice="tiger">
+            <img class="choice__img" src="img/tiger-ava.svg" alt="img">
+            <span class="choice__name">Тигренок</span>
+            <div class="choice__bg"></div>
+            <div class="choice__decor"></div>
+          </div>
+        </div>
+        <button class="btn choice__btn" disabled>Продолжить</button>
+      </div>
+      <div class="definition">
+        <form class="form definition__form">
+          <div class="form__container">
+            <div class="form__picture">
+              <img class="form__img" src="img/bear.svg" alt="">
+            </div>
+            <div class="form__data">
+              <h2 class="form__title">Укажите параметры питомца</h2>
+
+              <label class="form__label">Рост:
+                <input class="form__input form__input--number" type="text" maxlength="3" name="height" required> см.
+              </label>
+              <p class="input-note">диапазон параметров (<span class="range-height">0</span>)</p>
+              <label class="form__label">Вес:
+                <input class="form__input form__input--number" type="text" maxlength="3" name="weight" required> кг.
+              </label>
+              <p class="input-note">диапазон параметров (<span class="range-weight">0</span>)</p>
+              <label class="form__label">Имя:
+                <input class="form__input form__input--text" maxlength="50" type="text" name="name" required>
+              </label>
+              <p class="input-note">количество символов (2-50)</p>
+            </div>
+          </div>
+          <button class="form__btn" type="submit" disabled>
+            <span class="line-accent">Определить питомца</span>
+            <span class="line-accent">по&nbsp;параметрам</span>
+          </button>
+          <p class="definition__text">
+            <span class="result__breed">Порода</span> с весом
+            <span class="breed-weight nowrap">00</span>кг, и&nbsp;ростом
+            <span class="breed-height nowrap">00</span>см</p>
+        </form>
+        <button class="btn definition__btn" disabled>Смотреть фотографию</button>
+      </div>
+      <div class="result">
+        <h3 class="title result__title">Перед вами фотография “<span class="result__breed nowrap">порода</span>”</h3>
+        <img class="result__img" src="img/huski.jpg" alt="">
+        <h4 class="result__name">Имя</h4>
+        <button class="btn result__download">Скачать фотографию</button>
+        <button class="btn result__reset">Попробовать еще раз</button>
+      </div>
+      <div class="faq">
+        <div class="faq__content">
+          <div class="faq__close"></div>
+          <h2 class="faq__title title">FAQ</h2>
+          <ol class="faq__list">
+            <li class="faq__item">Выбираем тип&nbsp;питомца</li>
+            <li class="faq__item">Указываем параметры в&nbsp;допустимом диапазоне</li>
+            <li class="faq__item">Получаем предполагаемую породу&nbsp;питомца</li>
+            <li class="faq__item">Любуемся картинкой животного</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </main>
+  <script src="js/main.js"></script>
+</body>
+
+</html>

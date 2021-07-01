@@ -1,0 +1,112 @@
+[{
+    "kind": "tiger",
+    "breed": "Амурский тигр",
+    "weight": "100-120",
+    "height": "50-65",
+    "file": "amur-tiger"
+  },
+  {
+    "kind": "tiger",
+    "breed": "Бенгальский тигр",
+    "weight": "121-200",
+    "height": "66-80",
+    "file": "bengal-tiger"
+  },
+  {
+    "kind": "tiger",
+    "breed": "Золотой тигр",
+    "file": "golden-tiger"
+  },
+  {
+    "kind": "dog",
+    "breed": "Йоркширский Терьер",
+    "weight": "1-3",
+    "height": "10-15",
+    "file": "yorkshire-terrier"
+  },
+  {
+    "kind": "dog",
+    "breed": "Джек Рассел Терьер",
+    "weight": "4-8",
+    "height": "16-23",
+    "file": "jack-russell-terrier"
+  },
+  {
+    "kind": "dog",
+    "breed": "Корги",
+    "weight": "9-12",
+    "height": "24-30",
+    "file": "corgi"
+  },
+  {
+    "kind": "dog",
+    "breed": "Австралийский келпи",
+    "weight": "13-20",
+    "height": "31-45",
+    "file": "australian-kelpie"
+  },
+  {
+    "kind": "dog",
+    "breed": "Ротвейлер",
+    "weight": "21-60",
+    "height": "46-70",
+    "file": "rottweiler"
+  },
+  {
+    "kind": "dog",
+    "breed": "Хаски",
+    "file": "huski"
+  },
+  {
+    "kind": "cat",
+    "breed": "Манчкин",
+    "weight": "3-5",
+    "height": "12-25",
+    "file": "munchkin"
+  },
+  {
+    "kind": "cat",
+    "breed": "Мейн-кун",
+    "weight": "6-12",
+    "height": "26-41",
+    "file": "maine-coon"
+  },
+  {
+    "kind": "cat",
+    "breed": "Каракал",
+    "weight": "13-20",
+    "height": "42-48",
+    "file": "caracal"
+  },
+  {
+    "kind": "cat",
+    "breed": "Бенгальский",
+    "file": "bengal-cat"
+  },
+  {
+    "kind": "bear",
+    "breed": "Европейский бурый медведь",
+    "weight": "300-350",
+    "height": "160-180",
+    "file": "european-brown-bear"
+  },
+  {
+    "kind": "bear",
+    "breed": "Гризли",
+    "weight": "351-450",
+    "height": "181-220",
+    "file": "grizzly"
+  },
+  {
+    "kind": "bear",
+    "breed": "Японский бурый медведь",
+    "weight": "451-500",
+    "height": "221-300",
+    "file": "japanese-brown-bear"
+  },
+  {
+    "kind": "bear",
+    "breed": "Черный медведь",
+    "file": "black-bear"
+  }
+]
